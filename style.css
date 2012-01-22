@@ -23,11 +23,6 @@ h2 {
     padding: 16px 8px 8px 0;;
     margin: 0;
 }
-tt {
-	font-family: courier new, courier;
-	font-weight: bold;
-	font-size: 10pt;
-}
 ul {
 	padding-left: 0px;
 	list-style-position: outside;
@@ -99,4 +94,4 @@ blockquote {
 .highlight .s { color: #C00; }
 .highlight .mi { color: #C09; }
 .highlight .mf { color: #C09; }
-
+.highlight .nt { color: #00C; }

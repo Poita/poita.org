@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>poita.org</title>
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <!-- <link rel="alternate" type="application/atom+xml" title="Atom feed" href="atom.xml"/> -->
+</head>
+<body>
+<div id="top"><a href="/">poita.org</a></div>
+<div id="main">
+    <div id="right">
+        <p>This is the homepage of Peter Alexander.</p>
+        <p>I write code.</p>
+        <p>I make games.</p>
+
+        <h2>Recent Posts</h2>
+        {% for post in site.posts limit:3 %}
+            <a href="{{ post.url }}">{{ post.title }}</a><br/>
+        {% endfor %}
+
+        <h2>Links</h2>
+        <a href="https://github.com/Poita">github.com/Poita</a><br/>
+        <a href="https://twitter.com/#!/Poita_">@Poita_</a><br/>
+        <a href="https://plus.google.com/113406528604077476949">Google+</a><br/>
+    </div>
+<div id="left">
+    {{ content }}
+</div>
+</body>
+</html>
+
+

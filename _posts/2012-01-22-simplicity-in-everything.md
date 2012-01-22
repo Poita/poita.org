@@ -28,20 +28,20 @@ that kind of thing.
 Ideally, what I want is something that transforms this
 
 {% highlight html %}
-    <body>
-    <h1>{{ "{{ page.title "}}}}</h1>
-    {{ "{{ page.content "}}}}
-    </body>
+<body>
+<h1>{{ "{{ page.title "}}}}</h1>
+{{ "{{ page.content "}}}}
+</body>
 {% endhighlight %}
 
 into this
 
 {% highlight html %}
-    <body>
-    <h1>Simplicity in Everything</h1>
-    <p>This website is now created using Jekyll...</p>
-    ...
-    </body>
+<body>
+<h1>Simplicity in Everything</h1>
+<p>This website is now created using Jekyll...</p>
+...
+</body>
 {% endhighlight %}
 
 That's *exactly* what Jekyll does. It just goes through all your pages

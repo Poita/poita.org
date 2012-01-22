@@ -1,2 +1,2 @@
 pygments: true
-exclude: README deploy
+exclude: README.md deploy _drafts

@@ -5,26 +5,27 @@
     <link rel="stylesheet" type="text/css" href="/style.css"/>
 </head>
 <body>
-<div id="top"><a href="/">poita.org</a></div>
-<div id="main">
-    <div id="right">
-        <p>This is the homepage of Peter Alexander.</p>
-        <p>I write code.</p>
-        <p>I make games.</p>
+    <div id="top"><a href="/">poita.org</a></div>
+    <div id="main">
+        <div id="right">
+            <p>This is the homepage of Peter Alexander.</p>
+            <p>I write code.</p>
+            <p>I make games.</p>
 
-        <h2>Recent Posts</h2>
-        {% for post in site.posts limit:3 %}
-            <a href="{{ post.url }}">{{ post.title }}</a><br/>
-        {% endfor %}
+            <h2>Recent Posts</h2>
+            {% for post in site.posts limit:3 %}
+                <a href="{{ post.url }}">{{ post.title }}</a><br/>
+            {% endfor %}
 
-        <h2>Links</h2>
-        <a href="https://github.com/Poita">github.com/Poita</a><br/>
-        <a href="https://twitter.com/#!/Poita_">@Poita_</a><br/>
-        <a href="https://plus.google.com/113406528604077476949">Google+</a><br/>
+            <h2>Links</h2>
+            <a href="https://github.com/Poita">github.com/Poita</a><br/>
+            <a href="https://twitter.com/#!/Poita_">@Poita_</a><br/>
+            <a href="https://plus.google.com/113406528604077476949">Google+</a><br/>
+        </div>
+        <div id="left">
+            {{ content }}
+        </div>
     </div>
-<div id="left">
-    {{ content }}
-</div>
 </body>
 <script type="text/javascript">
     var _gaq = _gaq || [];

@@ -9,7 +9,7 @@ tags:
 - overloading
 ---
 I've spent quite a lot of time in the D programming language community, and one
-thing I've notcied is that people are very quick to suggest new features, but
+thing I've noticed is that people are very quick to suggest new features, but
 rarely do people suggest to remove a feature (unless it is outright broken). It's
 easy to see the benefits of adding to a language, but the costs are often harder
 to see, or are simply ignored.

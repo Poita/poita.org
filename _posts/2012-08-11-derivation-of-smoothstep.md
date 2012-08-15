@@ -20,7 +20,7 @@ out [MathJax][5] on my blog).
 Here's what smoothstep looks like:
 
 <br/>
-<center><img src='/img/smoothstep.png' alt='smoothstep' /></center>
+<center><img src='/img/smoothstep.png' alt='smoothstep' width='252' height='249' /></center>
 <br/>
 
 So, to start, what are we actually looking for? What are the requirements of

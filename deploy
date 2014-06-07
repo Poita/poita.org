@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+jekyll && cp .htaccess _site/.htaccess && rsync -avz --delete _site/ poita@poita.org:/var/www/poita.org/

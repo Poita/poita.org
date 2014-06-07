@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="google-site-verification" content="q-BBpQDDaTrAv9LW7-uoljs9jGZb-A1cICsRlo_HIBg" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="keywords" content="{{ page.tags | join:"," }}"/>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="/style.css"/>
@@ -15,9 +16,9 @@
             <p>This is the homepage of Peter Alexander. I am a game programmer currently working at Codemasters. Any opinions are my own.</p>
 
             <h2>Recent Posts</h2>
-            {% for post in site.posts limit:5 %}
-                <a href="{{ post.url }}">{{ post.title }}</a><br/>
-            {% endfor %}
+            <ul class="list">{% for post in site.posts limit:5 %}
+                <li class="list"><a class="list" href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}</ul>
             <br/>
             <a href="/all-posts.html">All Posts</a><br/>
 
@@ -36,7 +37,6 @@
         </div>
     </div>
 </body>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {

@@ -1,2 +1,2 @@
-pygments: true
-exclude: README.md deploy _drafts
+highlighter: pygments
+exclude: [README.md, deploy, _drafts]

@@ -9,7 +9,7 @@ tags:
 {% for post in site.posts limit:5 %}
     <h1>{{ post.title }}</h1>
     <div id="subheading">
-        Posted: {{ post.date | date:"%Y-%m-%d" }} - <a href="{{ post.url }}">Link</a>
+        Posted: {{ post.date | date_to_string }} - <a href="{{ post.url }}">Link</a>
     </div>
     {{ post.content }}<br/>
 {% endfor %}

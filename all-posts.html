@@ -5,7 +5,7 @@ title: All Posts
 <h1>All Posts</h1>
 <br/>
 {% for post in site.posts %}
-    {{ post.date | date:"%Y-%m-%d" }} - <a href="{{ post.url }}">{{ post.title }}</a><br/>
+    {{ post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a><br/>
 {% endfor %}
 <br/>
 <a href="/">Back to Home</a>

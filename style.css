@@ -55,6 +55,13 @@ table, tr, td, th {
 td, th {
     padding: 3px;
 }
+figure {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 .highlight {
     background: #f6f6f6;
     border-style: solid;
